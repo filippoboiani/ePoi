@@ -21,10 +21,8 @@ var color = require('colors-cli/safe');
 Connection
 Connect to local MongoDB instance. A remoteUrl is also available (modulus.io)
 */
-//mongoose.connect(database.remoteUr);
+mongoose.connect(database.remoteUr);
 console.log("AAAAAA____BBBBBBBB");
-console.log(MONGODB_URI);
-mongoose.connect(MONGODB_URI);
 
 // import the Strategy
 require('./config/server/passport')(passport);
