@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row vertical-offset-50">
+    <div class="col-md-4">
+      <h4>Poi list <a class="pull-right" href="/#/poi/add"><span class="fa fa-plus"></span></a></h4>
+      <hr />
+      <ul class="list-group">
+        <a class="list-group-item" ng-repeat="poi in poiList" ng-click="setMap($index)">
+          <h4 class="list-group-item-heading">{{poi.name}}</h4>
+          <p class="list-group-item-text">{{poi.message}}</p>
+        </a>
+      </ul>
+    </div>
+    <div class="col-md-8">
+      <div id="mapCanvas" class="half"></div>
+    </div>
+  </div>
+</div>

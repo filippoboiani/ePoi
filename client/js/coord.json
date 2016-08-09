@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Feltrinelli",
+    "lat": "44.494273",
+    "lng": "11.3459341",
+    "radius": "200",
+  },
+  {
+    "name": "Impero",
+    "lat": "44.4939358",
+    "lng": "11.3459035",
+    "radius": "250",
+  },
+  {
+    "name": "Tamburini",
+    "lat": "44.4938902",
+    "lng": "11.3456914",
+    "radius": "300",
+  },
+  {
+    "name": "Bar Otello",
+    "lat": "44.4935804",
+    "lng": "11.3447025",
+    "radius": "100",
+  },
+  {
+    "name": "Trattoria Gianni",
+    "lat": "44.4932505",
+    "lng": "11.3447204",
+    "radius": "50",
+  }
+
+]
