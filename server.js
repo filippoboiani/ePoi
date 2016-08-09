@@ -22,6 +22,7 @@ Connection
 Connect to local MongoDB instance. A remoteUrl is also available (modulus.io)
 */
 //mongoose.connect(database.remoteUr);
+console.log(MONGODB_URI);
 mongoose.connect(MONGODB_URI);
 
 // import the Strategy
